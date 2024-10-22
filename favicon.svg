@@ -1,0 +1,13 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="16" x2="16" y1="32" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#000"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
+  </style>
+  <rect width="200" height="200" fill="url(#gradient)"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Times" font-size="100" fill="white">OC</text>
+</svg>
